@@ -1,0 +1,167 @@
+---
+title: "CVS HealthHUBs and Social Determinants of Health in New York City"
+author: "Omar Pineda Jr."
+date: "5/15/2019"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: rows
+    source_code: embed
+    theme: journal
+---
+
+Sidebar {.sidebar}
+-------------------------------------
+
+In November 2018, CVS Health announced that it completed its acquisition of health insurer Aetna in a move that looks to transform the health care consumer experience in the United States. CVS will attempt to transform some of its 10,000 retail locations into HealthHubs (neighborhood health care destinations) as the industry increasingly looks to address the Social Determinants of Health (SDOH). The Social Determinants of Health considers the influence of factors such as education, the environment and local economy on the overall wellbeing of community members.
+
+This project looks at how CVS should consider purposing their store locations throughout NYC's boroughs based on scores of different social determinant components. Where is there more need and opportunity, and which component should a given CVS HealthHub prioritize and address to improve the health of its surrounding community?
+
+I have used the following data sources:
+
+CVS Locations: https://www.cvs.com/store-locator/cvs-pharmacy-locations/New-York
+Social Determinants Scores for New York: https://www.usnews.com/news/healthiest-communities/new-york
+Methodology for Social Determinant Scores: https://www.usnews.com/news/healthiest-communities/articles/methodology
+
+Row {.tabset .tabset-fade}
+-------------------------------------
+
+### CVS HealthHUB
+
+![](healthhub.jpg)
+
+### Data Acquisition
+
+First, we acquire our data by web scraping the social determinants scores for all counties in New York State as reported by U.S. News, and then we create a subset for NYC's 5 counties/boroughs.
+
+```{r nyLoad}
+library(rvest)
+ny <- read_html("https://www.usnews.com/news/healthiest-communities/new-york")
+counties <- html_nodes(ny, css = "table")
+
+table <- html_table(counties[[65]])
+table2 <- table[2:63,seq(1,length(colnames(table)),2)] #removes empty row #1 and empty columns
+
+#subset data for counties in New York City
+nyc <- subset(table2, County == "New York County" | County == "Bronx County" | County == "Kings County" | County == "Queens County" | County == "Richmond County")
+nyc
+```
+
+We retrieved the street addresses of CVS retail locations in NYC manually using CVS' store locator as we were unable to scrape their webpages. We also geocoded all CVS retail locations using their street addresses and the ggmap package. This code is commented out as it uses an API key.
+
+```{r CVSLocations}
+#code adapted from http://www.storybench.org/geocode-csv-addresses-r/
+#library(ggmap)
+#register_google(key = "xxx") #removed personal API key
+# Initialize the data frame
+#getOption("ggmap")
+# Loop through the addresses to get the latitude and longitude of each address and add it to the
+# ds data frame in new columns lat and lon
+# ds <- read.csv("CVSstreetAddresses.csv")
+#for(i in 1:nrow(ds))
+#{
+  # Print("Working...")
+#  result <- geocode(ds$Address[i], output = "latlon", source = "google")
+#  ds$lon[i] <- as.numeric(result[1])
+#  ds$lat[i] <- as.numeric(result[2])
+#}
+#write.csv(ds, "csv.csv", row.names=FALSE)
+cvs <- read.csv("https://raw.githubusercontent.com/omarp120/DATA607FinalProject/master/cvs.csv")
+head(cvs)
+```
+
+### Data Transformations
+
+We assign each CVS location their corresponding social determinant scores based on the borough/county that they are in. The following is a sample:
+
+```{r transformation}
+library(tidyr)
+library(sqldf)
+library(dplyr)
+#Convert Boroughs in the CVS location file to the names of the corresponding counties in the social determinants file
+cvs$Borough <- as.character(cvs$Borough)
+cvs$Borough[cvs$Borough == "bronx"] <- "Bronx County"
+cvs$Borough[cvs$Borough == "brooklyn"] <- "Kings County"
+cvs$Borough[cvs$Borough == "manhattan"] <- "New York County"
+cvs$Borough[cvs$Borough == "queens"] <- "Queens County"
+cvs$Borough[cvs$Borough == "staten island"] <- "Richmond County"
+
+#Join the social determinants data to the CVS locations data
+query <- 
+'SELECT * 
+FROM cvs
+LEFT JOIN nyc
+ON cvs.borough = nyc.County
+'
+cvs2 <- sqldf(query)
+head(cvs2[sample(nrow(cvs2), 10),])
+```
+
+Additionally, we find the lowest score for each location to see what sort of services are most needed at each location in order to improve the health of their surrounding communities.
+
+```{r InNeed}
+#Find the social determinant factor that is most needed (has the lowest score) for each CVS location
+cvs3 <- cvs2
+cvs3$MostInNeed <- apply(cvs3[,9:18], 1, function(x) colnames(cvs3[,9:18])[which.min(x)])
+head(cvs3[sample(nrow(cvs2), 10),])
+```
+
+We also transform our social determinants data from wide to tall for some analyses.
+
+```{r wide2Tall}
+#Transform data from wide to tall
+nycTall <- gather(nyc, "Component", "Score", 'Population Health':Infrastructure) 
+head(nycTall)
+```
+
+### CVS Locations in New York City
+
+Next, we map our CVS locations in order to better understand how they are distributed throughout NYC. Most locations are in Manhattan, and there appear to be very few in the Bronx in relation to how large the borough is.
+
+```{r map}
+library(leaflet)
+cvs  %>% 
+  leaflet() %>% 
+  addTiles() %>% 
+  addMarkers(clusterOption=markerClusterOptions()) %>%
+  addProviderTiles(providers$CartoDB.Positron)
+```
+
+### Analysis 
+
+By plotting the total cumulative scores of the social determinant components by borough, we see that the Bronx has the lowest overall score and is in most need of resources that contribute to the overall health of its population. It is followed by Kings County (Brooklyn), Queens, Richmond County (Staten Island), and finally New York County (Manhattan), which is least in need.
+
+We would also like to see how these social determinant factors relate to one another. A correlation network of the social determinant components allows us to see which factors, such as Education and Housing, are highly correlated with one another. Factors that are highly correlated should be addressed in a bundled form at locations depending on what is in need in the community. Furthermore, we can assign additional factors to address at the CVS stores based on how they correlate to what is most in need at that location.
+
+Community Vitality is the lowest score in the Bronx and in Brooklyn, and this is most strongly correlated with Housing, the Economy and the Environment.
+
+### Total Social Determinant Scores by Borough
+
+```{r analysis}
+library(ggplot2)
+library(RColorBrewer)
+blues <- brewer.pal(9, "Blues")
+blue_range <- colorRampPalette(blues)
+ggplot(nycTall, aes(x = County, y = Score)) + geom_bar(stat = "identity", aes(color = Component), fill = "antiquewhite2") + xlab("Borough") + ylab("Total Score") + theme_bw() + theme(panel.grid.major = element_blank(), panel.border = element_blank()) + ggtitle("Total Social Determinant Scores")
+```
+
+### Correlation Network of Social Determinants of Health
+
+```{r corNetwork}
+library(corrr)
+cor <- nyc[,2:11] #isolate the variables that we want to correlate to one another
+cor.mat <- correlate(cor)
+#cor.mat
+cor %>% correlate() %>% network_plot(min_cor = 0.0)
+```
+
+### Conclusion
+
+In order to have the most substantial impact on the health of NYC's population, CVS should invest in addressing the social determinants of health in its design of HealthHubs in the Bronx and in Brooklyn. The component most in need of improvement in both the Bronx and Brooklyn is Community Vitality, which consists of community stability and social capital.
+
+CVS locations in the Bronx and Brooklyn should focus on providing resources that will lead to improvements in Community Vitality in order to make these communities healthier. Community Vitality is most strongly correlated with Housing, the Economy and the Environment, so those factors should also be bundled and addressed at these CVS locations. Housing looks at housing affordability, housing capacity, and housing quality. The economy considers employment, income and opportunity. The environment depends on air and water, the natural environment, and natural hazards. CVS could potentially host workshops and help form community groups in order to educate members on these topics and ultimately guide them on their journeys towards leading healthier lives.
+
+The following is a sample of 10 NYC store locations with assignments on what CVS should focus resources on at each store when redesigning them as HealthHubs. 'MostInNeed' denotes the social determinant component in most need at each of these locations.
+
+```{r sample}
+head(cvs3[sample(nrow(cvs3), 10), c(1,19)])
+```
