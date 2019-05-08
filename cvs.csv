@@ -1,0 +1,139 @@
+Address,Borough,Geo Address,Id,Lat,Lon,Target
+"282 East 149th Street Bronx, NY 10451",bronx,"282 e 149th st, bronx, ny 10451, usa",2438,40.8169203,-73.9222502,0
+"224 East 161st Street Bronx, NY 10451",bronx,"224 e 161st st, bronx, ny 10451, usa",2430,40.8243842,-73.9197242,0
+"3775 East Tremont Avenue Bronx, NY 10465",bronx,"3775 e tremont ave, bronx, ny 10465, usa",3096,40.8255689,-73.8205401,0
+"1688 Westchester Avenue Bronx, NY 10472",bronx,"1688 westchester ave, bronx, ny 10472, usa",8940,40.8301912,-73.8710802,0
+"50-56 East 167th Street Bronx, NY 10452",bronx,"50 e 167th st, bronx, ny 10452, usa",8969,40.8353227,-73.9207592,0
+"3681 Bruckner Blvd, Corner Of Bruckner Boulevard Bronx, NY 10461",bronx,"3681 bruckner blvd, bronx, ny 10461, usa",2697,40.8524432,-73.8276329,0
+"1916 Williamsbridge Road Bronx, NY 10461",bronx,"1916 williamsbridge rd, bronx, ny 10461, usa",7067,40.8529468,-73.8529791,0
+"2112 White Plains Road Bronx, NY 10462",bronx,"2112 white plains rd, bronx, ny 10462, usa",2433,40.8538437,-73.8673131,0
+"732 Allerton Avenue Bronx, NY 10467",bronx,"732 allerton ave, bronx, ny 10467, usa",2437,40.865197,-73.8658921,0
+"3125 Bainbridge Avenue Bronx, NY 10467",bronx,"3125 bainbridge ave, bronx, ny 10467, usa",2551,40.8743967,-73.8796248,0
+"565 West 235th Street Bronx, NY 10463",bronx,"565 w 235th st, bronx, ny 10463, usa",7066,40.8860579,-73.9105843,0
+"532 Neptune Ave Brooklyn, NY 11224",brooklyn,"532 neptune ave, brooklyn, ny 11224, usa",2428,40.5796567,-73.9743002,0
+"2014 Cropsey Avenue Brooklyn, NY 11214",brooklyn,"2014 cropsey ave, brooklyn, ny 11214, usa",5134,40.5996987,-74.0026063,0
+"2151 86th Street Brooklyn, NY 11214",brooklyn,"2151 86th st, brooklyn, ny 11214, usa",2441,40.6027171,-73.9945497,0
+"8430 New Utrecht Avenue Brooklyn, NY 11214",brooklyn,"8430 new utrecht ave, brooklyn, ny 11214, usa",644,40.6081339,-74.002056,0
+"4112 Avenue U, Across From Kings Plaza Mall Brooklyn, NY 11234",brooklyn,"4112 avenue u, brooklyn, ny 11234, usa",2431,40.6085907,-73.9232196,0
+"1601 Kings Highway Brooklyn, NY 11229",brooklyn,"1601 kings hwy, brooklyn, ny 11229, usa",10291,40.6095009,-73.9571521,0
+"6831 Bay Parkway Brooklyn, NY 11204",brooklyn,"6831 bay pkwy, brooklyn, ny 11204, usa",5847,40.610911,-73.9838175,0
+"2925 Kings Highway, Corner Of Nostrand Avenue Brooklyn, NY 11229",brooklyn,"2925 kings hwy, brooklyn, ny 11229, usa",2141,40.6162819,-73.9452586,0
+"6502-6510 Eighteenth Avenue Brooklyn, NY 11204",brooklyn,"6502-6510 18th ave, brooklyn, ny 11204, usa",2410,40.6191198,-73.9905785,0
+"2320 Ralph Avenue Brooklyn, NY 11234",brooklyn,"2320 ralph ave, brooklyn, ny 11234, usa",802,40.6213139,-73.9178411,0
+"6702 Fort Hamilton Parkway Brooklyn, NY 11219",brooklyn,"6702 fort hamilton pkwy, brooklyn, ny 11219, usa",2574,40.6296656,-74.0111837,0
+"4901 Kings Highway Brooklyn, NY 11234",brooklyn,"4901 kings hwy, brooklyn, ny 11234, usa",2769,40.6343753,-73.9289096,0
+"411 Ditmas Avenue Brooklyn, NY 11218",brooklyn,"411 ditmas ave, brooklyn, ny 11218, usa",2699,40.6362111,-73.9744629,0
+"1070 Flatbush Avenue Brooklyn, NY 11226",brooklyn,"1070 flatbush ave, brooklyn, ny 11226, usa",2812,40.6443879,-73.9582541,0
+"10204 Flatlands Avenue Brooklyn, NY 11236",brooklyn,"10204 flatlands ave, brooklyn, ny 11236, usa",2906,40.6460233,-73.8964372,0
+"1346 Pennsylvania Avenue Brooklyn, NY 11239",brooklyn,"1346 granville payne ave, brooklyn, ny 11239, usa",2426,40.6470688,-73.8823845,0
+"1251 Nostrand Avenue Brooklyn, NY 11225",brooklyn,"1251 nostrand ave, brooklyn, ny 11225, usa",2344,40.6565307,-73.9498508,0
+"341 Ninth Street Brooklyn, NY 11215",brooklyn,"341 9th st, brooklyn, ny 11215, usa",2498,40.6687993,-73.9847935,0
+"395 Court Street Brooklyn, NY 11231",brooklyn,"395 court st, brooklyn, ny 11231, usa",845,40.6798099,-73.9968912,0
+"30 Flatbush Ave Brooklyn, NY 11217",brooklyn,"30 flatbush ave, brooklyn, ny 11217, usa",10086,40.6880577,-73.9806417,0
+"150 Court Street Brooklyn, NY 11201",brooklyn,"150 court st, brooklyn, ny 11201, usa",2672,40.6889791,-73.9929629,0
+"218 Myrtle Avenue Brooklyn, NY 11201",brooklyn,"218 myrtle ave, brooklyn, ny 11201, usa",13019,40.6933338,-73.9795657,0
+"168 Montague St Brooklyn, NY 11201",brooklyn,"168 montague st, brooklyn, ny 11201, usa",6766,40.6939137,-73.9924131,0
+"156 Henry Street Brooklyn, NY 11201",brooklyn,"156 henry st, brooklyn, ny 11201, usa",1791,40.6960118,-73.9939123,0
+"27 North 6th Street Brooklyn, NY 11249",brooklyn,"27 n 6th st, brooklyn, ny 11249, usa",4958,40.7201762,-73.9625832,0
+"859 Manhattan Ave Brooklyn, NY 11222",brooklyn,"859 manhattan ave, brooklyn, ny 11222, usa",10042,40.7293315,-73.9541124,0
+"129 Fulton Street On The Corner Of Nassau St New York, NY 10038",manhattan,"129 fulton st, new york, ny 10038, usa",2716,40.7102958,-74.007457,0
+"500 Grand Street On The Corner Of Willett St New York, NY 10002",manhattan,"500 grand st, new york, ny 10002, usa",2939,40.7151396,-73.9828151,0
+"298 Mulberry Street On The Corner Of E. Houston St New York, NY 10012",manhattan,"298 mulberry st, new york, ny 10012, usa",10407,40.725116,-73.9945268,0
+"158 Bleecker Street Corner Of Thompson St. New York, NY 10012",manhattan,"158 bleecker st, new york, ny 10012, usa",2058,40.7284249,-73.9998652,0
+"51 Astor Place New York, NY 10003",manhattan,"51 astor pl, new york, ny 10003, usa",10828,40.7301092,-73.9902571,0
+"20 University Place Btwn. 8th And 9th St. New York, NY 10003",manhattan,"20 university pl, new york, ny 10003, usa",8900,40.7317576,-73.9948531,0
+"253 First Avenue Btwn. 14th And 15th St. New York, NY 10003",manhattan,"253 1st avenue, new york, ny 10003, usa",2557,40.7319489,-73.9825438,0
+"360 6th Avenue Btwn. Waverly Pl And Washington Pl New York, NY 10011",manhattan,"360 6th ave, new york, ny 10011, usa",2558,40.7323844,-74.0002157,0
+"75 Christopher Street On The Corner Of 7th Ave New York, NY 10014",manhattan,"75 christopher st, new york, ny 10014, usa",2435,40.7337206,-74.0031036,0
+"65 5th Avenue Btwn. 13th And 14th St. New York, NY 10003",manhattan,"65 5th ave, new york, ny 10003, usa",10612,40.7357402,-73.9934811,0
+"475 6th Avenue On The Corner Of 12th St New York, NY 10011",manhattan,"475 6th ave, new york, ny 10011, usa",10530,40.736005,-73.998367,0
+"215 Park Avenue South Btwn. 17th And 18th St. New York, NY 10003",manhattan,"215 park ave s, new york, ny 10003, usa",2427,40.7369799,-73.988454,0
+"338 East 23rd Street Btwn. 1st And 2nd Ave. New York, NY 10010",manhattan,"338 e 23rd st, new york, ny 10010, usa",2434,40.737086,-73.9794735,0
+"275 Third Avenue, Corner Of 22 Street New York, NY 10010",manhattan,"275 3rd ave, new york, ny 10001, usa",2556,40.7378806,-73.983499,0
+"300 Park Avenue South Btwn. 22nd And 23rd St. New York, NY 10010",manhattan,"300 park ave s, new york, ny 10010, usa",2962,40.7398325,-73.9869514,0
+"81 Eight Avenue Btwn. 14th And 15th St. New York, NY 10011",manhattan,"81 8th ave, new york, ny 10011, usa",1618,40.740117,-74.0027974,0
+"636 6th Avenue Btwn. 19th And 20th St. New York, NY 10011",manhattan,"636 6th ave, new york, ny 10011, usa",10583,40.7404323,-73.9940984,0
+"750 Sixth Avenue Btwn. 24th And 25th St. New York, NY 10010",manhattan,"750 6th ave, new york, ny 10010, usa",2671,40.7440198,-73.9918496,0
+"222 East 34th Street Between 2nd And 3rd Ave. New York, NY 10016",manhattan,"222 e 34th st, new york, ny 10016, usa",8968,40.744832,-73.976533,0
+"272 8th Avenue Btwn. 23rd And 24th St. New York, NY 10011",manhattan,"272 8th ave, new york, ny 10011, usa",601,40.7457399,-73.9979847,0
+"320 Fifth Avenue, Corner Of 32nd Street New York, NY 10001",manhattan,"320 5th ave, new york, ny 10001, usa",2457,40.7475057,-73.9858036,0
+"500 West 23rd St. Btwn. 10th And 11th Ave. New York, NY 10011",manhattan,"500 w 23rd st, new york, ny 10011, usa",10041,40.7475989,-74.0046218,0
+"150 East 42nd Street Btwn. 3rd And Lexington Ave New York, NY 10017",manhattan,"150 e 42nd st, new york, ny 10017, usa",7019,40.750938,-73.975288,0
+"420 Fifth Ave Btwn 37th And 38th St. New York, NY 10018",manhattan,"420 5th ave # 1, new york, ny 10018, usa",7186,40.7510735,-73.9832342,0
+"5 Penn Plaza On The Corner Of 8th Ave And 34th St New York, NY 10001",manhattan,"5 pennsylvania plaza, new york, ny 10001, usa",10613,40.7519205,-73.9940677,0
+"757 3rd Ave Ground Floor Btwn. 47th And 48th St New York, NY 10017",manhattan,"757 3rd ave #702, new york, ny 10017, usa",10654,40.7539261,-73.9714666,0
+"1440 Broadway On The Corner Of 40th St New York, NY 10018",manhattan,"1440 broadway, new york, ny 10018, usa",10826,40.7543953,-73.986453,0
+"630 Lexington Avenue Btwn. 53rd And 54th St. New York, NY 10022",manhattan,"630 lexington ave, new york, ny 10022, usa",3752,40.7585919,-73.9710925,0
+"500 West 42nd Street On The Corner Of 42nd St. New York, NY 10036",manhattan,"500 w 42nd st, new york, ny 10036, usa",2940,40.759498,-73.9958552,0
+"1223 Second Avenue On The Corner Of East 64th St., Corner Of 64th Streeet New York, NY 10065",manhattan,"1223 2nd ave, new york, ny 10021, usa",2400,40.7639862,-73.9623318,0
+"241 West 57th Street On The Corner Of 8th Ave. New York, NY 10019",manhattan,"241 w 57th st, new york, ny 10019, usa",10298,40.7668146,-73.9825558,0
+"800 10th Avenue Btwn. 53rd And 54th St. New York, NY 10019",manhattan,"800 10th ave, new york, ny 10019, usa",10235,40.7669349,-73.9897294,0
+"1172 3rd Ave On The Corner Of 68th St New York, NY 10065",manhattan,"1172 3rd ave, new york, ny 10065, usa",10460,40.7675907,-73.9626034,0
+"1 Columbus Place On 58th St. And Btwn. 9th And 10th Ave. New York, NY 10019",manhattan,"1 columbus ave, new york, ny 10019, usa",2168,40.7688283,-73.9853356,0
+"1396 Second Avenue Btwn. 72nd And 73rd St. New York, NY 10021",manhattan,"1396 2nd ave, new york, ny 10021, usa",2144,40.7689423,-73.9579667,0
+"1569 First Avenue Btwn. 81st And 82nd St. New York, NY 10028",manhattan,"1569 1st avenue, new york, ny 10028, usa",2411,40.774251,-73.951711,0
+"200 West End Avenue Around Corner Of 70th St. New York, NY 10023",manhattan,"200 west end ave, new york, ny 10023, usa",6062,40.778223,-73.9853407,0
+"1241 Lexington Avenue Btwn. 84th And 85th St. New York, NY 10028",manhattan,"1241 lexington ave, new york, ny 10028, usa",3295,40.7782493,-73.9562245,0
+"1294 Lexington Avenue Btwn. 87th And 88th St. New York, NY 10128",manhattan,"1294 lexington ave, new york, ny 10128, usa",2717,40.7803788,-73.9551688,0
+"1622 Third Avenue Btwn. 91st And 92nd St. New York, NY 10128",manhattan,"1622 3rd ave, new york, ny 10128, usa",2036,40.7822658,-73.9518254,0
+"2182 Broadway Btwn. 77th And 78th St. New York, NY 10024",manhattan,"2182 broadway, new york, ny 10024, usa",4014,40.7825006,-73.980446,0
+"1500 Lexington Avenue Btwn. 96th And 97th St. New York, NY 10029",manhattan,"1500 lexington ave, new york, ny 10029, usa",5772,40.7863778,-73.9507953,0
+"540 Amsterdam Avenue Btwn. 86th And 87th St. New York, NY 10024",manhattan,"540 amsterdam ave, new york, ny 10024, usa",2445,40.7879766,-73.9751384,0
+"2495 Broadway Btwn. 92nd And 93rd St. New York, NY 10025",manhattan,"2495 broadway, new york, ny 10025, usa",6066,40.7927214,-73.9737275,0
+"743 Amsterdam Avenue Btwn. 96th And 97th St. New York, NY 10025",manhattan,"743 amsterdam ave, new york, ny 10025, usa",2360,40.7942103,-73.9698745,0
+"130 Lenox Avenue Btwn. 116th And 117th St. New York, NY 10026",manhattan,"130 malcolm x blvd, new york, ny 10026, usa",3224,40.8021299,-73.9491926,0
+"115 West 125th Street On The Corner Of Lenox Ave New York, NY 10027",manhattan,"115 w 125th st, new york, ny 10027, usa",2737,40.8083045,-73.9456757,0
+"3534 Broadway New York, NY 10031",manhattan,"3534 broadway, new york, ny 10031, usa",10827,40.8259985,-73.9502641,0
+"130 Dyckman Street New York, NY 10040",manhattan,"130 dyckman st, new york, ny 10040, usa",2773,40.8624868,-73.9256165,0
+"97-01 Liberty Avenue Ozone Park, NY 11417",queens,"97-01 liberty ave, ozone park, ny 11417, usa",2719,40.6814267,-73.8418573,0
+"83-02 Atlantic Avenue Ozone Park, NY 11416",queens,"83-02 atlantic ave, ozone park, ny 11416, usa",2041,40.6852173,-73.857582,0
+"206 Linden Boulevard Cambria Heights, NY 11429",queens,"206-09 linden blvd, jamaica, ny 11411, usa",3138,40.6965284,-73.7456728,0
+"329-339 Wyckoff Ave Ridgewood, NY 11385",queens,"329-339 wyckoff ave, ridgewood, ny 11385, usa",2280,40.6999065,-73.9112291,0
+"97-15 Metropolitan Avenue Forest Hills, NY 11375",queens,"97-15 metropolitan ave, forest hills, ny 11375, usa",7881,40.7113503,-73.855019,0
+"170-25 Hillside Avenue Jamaica, NY 11432",queens,"170-25 hillside avenue, jamaica, ny 11432, usa",2718,40.7117499,-73.791129,0
+"61-15 Metropolitan Ave Ridgewood, NY 11385",queens,"61-15 metropolitan ave, ridgewood, ny 11385, usa",549,40.7129806,-73.9013521,0
+"118-10 Queens Boulevard, Corner Of 78th Avenue Forest Hills, NY 11375",queens,"118-10 queens blvd, forest hills, ny 11375, usa",499,40.7146041,-73.8324877,0
+"108-7 Queens Blvd Forest Hills, NY 11375",queens,"1087 queens blvd, forest hills, ny 11375, usa",5830,40.7214396,-73.8430434,0
+"100-02 Queens Boulevard Forest Hills, NY 11375",queens,"100-02 queens blvd, forest hills, ny 11375, usa",2057,40.7265616,-73.8537602,0
+"61-01 Woodhaven Boulevard Rego Park, NY 11374",queens,"61-01 woodhaven blvd, rego park, ny 11374, usa",2123,40.7287168,-73.8707127,0
+"372 Jericho Turnpike Floral Park, NY 11001",queens,"372 jericho turnpike, floral park, ny 11001, usa",3651,40.7298315,-73.695743,0
+"9710 63rd Road, Corner Of 97th Street Rego Park, NY 11374",queens,"97-10 63rd rd, flushing, ny 11374, usa",2985,40.7308088,-73.8605138,0
+"41-08 Queens Boulevard Sunnyside, NY 11104",queens,"41 08 queens blvd, sunnyside, ny 11104, usa",1058,40.743252,-73.9231342,0
+"1-50 50th Ave, Long Island City, NY 11101",queens,"1-50 50th ave, long island city, ny 11101, usa",NA,40.7432753,-73.9590448,0
+"72-09 Northern Boulevard Jackson Heights, NY 11372",queens,"72-09 northern blvd, jackson heights, ny 11372, usa",491,40.7549039,-73.8943747,0
+"89-11 Northern Boulevard Jackson Heights, NY 11372",queens,"89 11 northern blvd, jackson heights, ny 11372, usa",1113,40.7565939,-73.8783375,0
+"54-06 31st Avenue Woodside, NY 11377",queens,"54-6 31st ave, woodside, ny 11377, usa",1761,40.7568037,-73.9070427,0
+"30-97 Steinway Street Astoria, NY 11103",queens,"30-97 steinway st, astoria, ny 11103, usa",3146,40.7613619,-73.916647,0
+"31-01 Ditmars Boulevard Astoria, NY 11105",queens,"31-01 ditmars blvd, astoria, ny 11105, usa",7576,40.776013,-73.910205,0
+"250 Page Avenue Staten Island, NY 10307",staten island,"250 page ave, staten island, ny 10307, usa",6052,40.5172033,-74.2354028,0
+"5830 Amboy Road Staten Island, NY 10309",staten island,"5830 amboy rd, staten island, ny 10309, usa",6055,40.5255213,-74.201653,0
+"4055 Hylan Blvd Staten Island, NY 10308",staten island,"4055 hylan blvd, staten island, ny 10308, usa",6057,40.5409209,-74.1475993,0
+"4065 Amboy Road Staten Island, NY 10308",staten island,"4065 amboy rd, staten island, ny 10308, usa",2364,40.5496668,-74.1523471,0
+"260 Arden Avenue Staten Island, NY 10312",staten island,"260 arden ave, staten island, ny 10312, usa",6058,40.5530978,-74.1923432,0
+"640 Arthur Kill Road Staten Island, NY 10312",staten island,"640 arthur kill rd, staten island, ny 10308, usa",6047,40.5595475,-74.1628515,0
+"2690 Hylan Boulevard, Hylan Shopping Plaza, Staten Island, NY 10306",staten island,"2690 hylan blvd, staten island, ny 10306, usa",6046,40.5665837,-74.1132286,0
+"2655 Richmond Avenue Staten Island, NY 10314",staten island,"2655 richmond ave, staten island, ny 10314, usa",677,40.5811976,-74.1647604,0
+"2465 Richmond Avenue Staten Island, NY 10314",staten island,"2465 richmond ave, staten island, ny 10314, usa",6054,40.587616,-74.1663375,0
+"1361 Hylan Boulevard Staten Island, NY 10305",staten island,"1361 hylan blvd, staten island, ny 10305, usa",6049,40.5954049,-74.0864632,0
+"778a Manor Road Staten Island, NY 10314",staten island,"778a manor rd, staten island, ny 10314, usa",2439,40.6080747,-74.1217329,0
+"1654 Richmond Avenue Staten Island, NY 10314",staten island,"1654 richmond ave, staten island, ny 10314, usa",6050,40.6083516,-74.1642734,0
+"1933 Victory Boulevard Staten Island, NY 10314",staten island,"1933 victory blvd, staten island, ny 10314, usa",6048,40.6128465,-74.1287215,0
+"1125 Bay Street Staten Island, NY 10305",staten island,"1125 bay st, staten island, ny 10305, usa",6056,40.6158843,-74.0670056,0
+"1571 Forest Avenue Staten Island, NY 10302",staten island,"1571 forest ave, staten island, ny 10302, usa",6045,40.6251199,-74.1402446,0
+"2045 Forest Avenue Staten Island, NY 10303",staten island,"2045 forest ave, staten island, ny 10303, usa",6053,40.6267079,-74.1574388,0
+"812 Forest Ave Staten Island, NY 10301",staten island,"812 forest ave, staten island, ny 10310, usa",10904,40.6287652,-74.1164258,0
+"501 Forest Avenue Staten Island, NY 10310",staten island,"501 forest ave, staten island, ny 10310, usa",6051,40.6308147,-74.10624,0
+"815 Hutchinson River Pkwy Bronx, NY 10465",bronx,"815 hutchinson river pkwy, bronx, ny 10465, usa",17649,40.8235586,-73.8373024,1
+"700 Exterior St Bronx, NY 10451",bronx,"700 exterior street, bronx, ny 10451, usa",17526,40.823963,-73.9302874,1
+"40 W 225th St Bronx, NY 10463",bronx,"40 w 225th st, bronx, ny 10463, usa",16921,40.8726616,-73.9077807,1
+"1598 Flatbush Ave Brooklyn, NY 11210",brooklyn,"1598 flatbush ave, brooklyn, ny 11210, usa",17290,40.6315059,-73.9467515,1
+"519 Gateway Dr Brooklyn, NY 11239",brooklyn,"519 gateway dr, brooklyn, ny 11239, usa",16740,40.6529944,-73.870071,1
+"139 Flatbush Ave Brooklyn, NY 11217",brooklyn,"139 flatbush ave, brooklyn, ny 11217, usa",16969,40.6845602,-73.9776112,1
+"445 Gold St Brooklyn, NY 11201",brooklyn,"445 gold st, brooklyn, ny 11201, usa",17681,40.6909912,-73.9829165,1
+"255 Greenwich Street Btwn. Murray St. And Park Pl New York, NY 10007",manhattan,"255 greenwich st, new york, ny 10007, usa",17688,40.7143637,-74.01094,1
+"400 Grand Street New York, NY 10002",manhattan,"400 grand st, new york, ny 10002, usa",17728,40.7164903,-73.9867718,1
+"112 W 34th Street Btwn. 6th And 7th Ave New York, NY 10120",manhattan,"112 west 34th street, 18th floor, new york, ny 10120, united states",17726,40.7498093,-73.9890026,1
+"7000 Austin St Forest Hills, NY 11375",queens,"7000 austin st, forest hills, ny 11375, usa",17684,40.7208767,-73.8473538,1
+"8801 Queens Blvd Elmhurst, NY 11373",queens,"88-01 queens blvd, forest hills, ny 11375, usa",16683,40.7357181,-73.8744498,1
+"2900 Veterans Rd W Staten Island, NY 10309",staten island,"2900 veterans rd w, staten island, ny 10309, usa",17101,40.5285885,-74.2327892,1
+"2873 Richmond Ave Staten Island, NY 10314",staten island,"2873 richmond ave, staten island, ny 10314, usa",17616,40.5748538,-74.1667504,1
